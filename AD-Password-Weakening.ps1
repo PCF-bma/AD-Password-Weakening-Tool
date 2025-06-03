@@ -60,7 +60,7 @@ Utilisateurs à traiter : $totalUsers
 
 foreach ($user in $users) {
     $samAccount = $user.SamAccountName
-    $description = $user.Description ?? ""  # Handle null description
+    $description = if ($null -ne $user.Description) { $user.Description } else { "" }  # Handle null description
     
     # Vérifier les comptes à ignorer
     if ($skipUsers -contains $samAccount) {
