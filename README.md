@@ -4,8 +4,6 @@
 
 Ce script PowerShell est conçu comme un complément à [BadBlood](https://github.com/davidprowe/BadBlood) pour fragiliser davantage un environnement Active Directory en remplaçant les mots de passe des utilisateurs par des mots de passe vulnérables issus de la célèbre liste rockyou.txt.
 
-![AD Vulnerability Demo](https://via.placeholder.com/800x400.png?text=AD+Vulnerability+Simulation) *Exemple visuel d'un environnement AD fragilisé*
-
 ## 🎯 Objectifs Principaux
 
 - **Fragiliser l'AD** : Remplacer les mots de passe existants par des mots de passe connus et crackables
